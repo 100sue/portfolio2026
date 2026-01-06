@@ -1,4 +1,4 @@
-## Projet : Portfolio Next Generation ##
+## Portfolio 2026 ##
 
 <p align="center">
 <img src= "https://github.com/100sue/portfolio-animation/assets/90606431/88255fa5-1a75-405a-ba6d-18610b7b7814"/>
@@ -7,7 +7,7 @@
 <br>
 
 
-Un exemple de portfolio 2023 !!
+Un exemple de portfolio, inspiration St Valentin, Marriage !!
  <br>
 - Style minimaliste.
 - Site Web réactif.
@@ -72,7 +72,7 @@ Un exemple de portfolio 2023 !!
 </p>
 <h3 align="center">Connect with me:</h3>
 <p align="center">
-<a href="https://linkedin.com/in/https://www.linkedin.com/in/roland-appert/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/roland-appert/" height="30" width="40" /></a>
+<a href="https://www.linkedin.com/in/roland-appert/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/roland-appert/" height="30" width="40" /></a>
 </p>
 <br/>
 
