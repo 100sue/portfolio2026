@@ -7,7 +7,9 @@
 <br>
 
 
-Un exemple de portfolio, inspiration St Valentin, Marriage !!
+Un exemple de portfolio, inspiration St Valentin, Marriage (original mais cela fonctionne bien) ;) !!
+De plus, j'ai utilisé les plus basiques des languages avec quelques dépendances et surtot avec beaucoup d'imagination et d'astuce afin de lui donner un rendu très professionnel, technique et original !!!!
+
  <br>
 - Style minimaliste.
 - Site Web réactif.
