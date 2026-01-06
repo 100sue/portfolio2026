@@ -1,0 +1,1284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="/asset/images/like-blue.png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Portfolio Roland Appert </title>
+  </head>
+  <body>
+       
+
+    <!----- Header ----->
+    <header>
+      <a href="/" class="logo">Roland Appert</a>
+      <a href="#" class="menu" aria-label="menu" onclick="toggleMenu();">
+        <ion-icon class="open" name="menu-outline"></ion-icon>
+        <ion-icon class="close" name="close-outline"></ion-icon>
+      </a>
+      <ul class="nav">
+        <li>
+          <a href="/" class="nav-btn active" aria-label="button" onclick="resetHeader();"
+            ><ion-icon name="home-outline"></ion-icon
+          ></a>
+        </li>
+        <li><a href="#" class="nav-btn" data-target="about">About</a></li>
+        <li><a href="#" class="nav-btn" data-target="services">Services</a></li>
+        <li>
+          <a href="#" class="nav-btn" data-target="portfolio">Portfolio</a>
+        </li>
+        <li><a href="#" class="nav-btn" data-target="contact">Contact</a></li>
+      </ul>
+      
+    </header>
+    <!----- Mobile Nav ----->
+    <ul class="nav-mobile">
+      <li>
+        <a href="/" class="nav-btn active" aria-label="bouton" onclick="resetHeader();"
+          ><ion-icon name="home-outline"></ion-icon
+        ></a>
+      </li>
+      <li>
+        <a href="#" class="nav-btn" data-target="about">About</a>
+      </li>
+      <li>
+        <a href="#" class="nav-btn" data-target="services">Services</a>
+      </li>
+      <li>
+        <a href="#" class="nav-btn" data-target="portfolio">Portfolio</a>
+      </li>
+      <li>
+        <a href="#" class="nav-btn" data-target="contact">Contact</a>
+      </li>
+    </ul>
+
+    <!----- Banner ----->
+    <div class="banner container-fluid">
+      <div class="bg-slider slide-1 active">
+        <div class="content">
+          <h1>I'm Roland Appert</h1>
+          <div class="change-text">
+            <h3>And, I'm a</h3>
+          <h3>
+            <span class="word">&nbsp;UX/UI&nbsp;Developer&nbsp;.</span>
+                <span class="word">&nbsp;Web&nbsp;Designer&nbsp;.</span>
+                <span class="word">&nbsp;Frontend&nbsp; Developer&nbsp;.</span>
+                <span class="word">&nbsp;Backend&nbsp; Developer&nbsp;.</span>
+                <span class="word">&nbsp;Prompt&nbsp; Engineer&nbsp;.</span>
+          </h3>
+          </div>
+          <p>
+            I started my coding journey a few years ago and now i'm working full
+            time and doing freelance projects.
+            I'm obsessed with unique, interesting design and user-friendlt
+            functionalty so hit me up with your artistic project ideas or app
+            porposals.
+          </p>
+        </div>
+        <div class="circle bg">
+            <img src="./asset/images/logo A-design(9).png" alt="">
+            <div class="circle large">
+              <img src="./asset/images/logo A-design(9).png" alt="">
+                <div class="circle small">
+                  <img src="./asset/images/logo A-design(9).png" alt="">
+                </div>
+            </div>
+        </div>
+      </div>
+      <div class="bg-slider slide-2">
+        <div class="content">
+          <h1>Branding & Design</h1>
+           <p>
+            Brand Design can be defined as one of the crucial marketing 
+            practices of creating the name, logo, design, and the symbolic 
+            elements related to the brand to create a distinctive identity 
+            in comparison to the other brands in the market and also 
+            providing impetus to the product differentiation.
+           </p>
+        </div>
+        <div class="circle bg">
+          <img src="./asset/images/logo A-design(10).png" alt="">
+            <div class="circle large">
+              <img src="./asset/images/logo A-design(10).png" alt="">
+                <div class="circle small">
+                  <img src="./asset/images/logo A-design(10).png" alt="">
+                </div>
+            </div>
+        </div>
+      </div>
+      <div class="bg-slider slide-3">
+        <div class="content">
+          <h1>Back-end Development</h1>
+          <p>
+            As a back-end developer, I am responsible for creating 
+            the server-side components of a web application, including 
+            the server infrastructure and database. 
+            I work with technologies such as PHP and .NET and have 
+            a strong understanding of server-side architectures and databases. 
+            <br>My role also includes integrating the front-end and back-end 
+            components of the application and troubleshooting issues on the server-side.
+          </p>
+        </div>
+        <div class="circle bg">
+          <img src="./asset/images/logo A-design(5).png" alt="">
+            <div class="circle large">
+              <img src="./asset/images/logo A-design(5).png" alt="">
+                <div class="circle small">
+                  <img src="./asset/images/logo A-design(5).png" alt="">
+                </div>
+            </div>
+        </div>
+      </div>
+      <ul class="slide-loader">
+        <li><a class="slide-btn active" data-target="slide-1">1</a></li>
+        <li><a class="slide-btn" data-target="slide-2">2</a></li>
+        <li><a  class="slide-btn" data-target="slide-3">3</a></li>
+      </ul>
+      <div class="share">
+        <p>share</p>
+        <a href="#" aria-label="reseau-social"><ion-icon name="share-social-outline"></ion-icon></a>
+      </div>
+      <div class="lead">
+        <svg viewBox="0 0 100 100" width="100" height="100">
+          <defs>
+            <path 
+            id="circle"
+            d="
+            M 50, 50
+            m -37, 0
+            a 37,37 0 1,1 74,0
+            a 37,37 0 1,1 -74,0"
+            >
+          </defs>
+          <text font-size="17">
+            <textPath xlink:href="#circle">
+              Will you hire me, Boss ? ...Yes I do...
+            </textPath>
+          </text>
+        </svg>
+        <a href="#" aria-label="fleche-vers-bas" class="move-down" onclick="initNavigation();"><ion-icon name="chevron-down-outline"></ion-icon></a>
+      </div>
+    </div>
+    <!----- Main----->
+    <main>
+      <!----- Section: About----->
+      <section id="about" class="about">
+        <div class="container">
+          <div class="row">
+            <h1>About Me</h1>
+          </div>
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="img-box">
+                <img src="./asset/images/bg25.png" class="img-fluid" alt="">
+                <img src="./asset/images/about-img2-removebg-preview.png" class="corner-img" alt="">
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <img src="./asset/images/coding.png" class="section-bg-img" alt="">
+              <h4>Who i am ?</h4>
+              <p>
+                As a web developer skilled in front-end and back-end technologies,
+                I am passionate about creating high-quality websites and applications
+                that deliver a seamless user experience.
+                My goal is to implement innovative online solutions that add value
+                for users and businesses. I am always looking to learn and expand my
+                skillset, and I am excited to bring my expertise to new challenges
+                and opportunities.
+              </p>
+              <p>
+                Web development services are used to design, build, support, 
+                and evolve all types of web-based software. <br>
+                 What I provide :
+                 Web application development, Testing, Maintenance Systems.<br>
+               Brand Design can be defined as one of the crucial marketing 
+               practices of creating the name, logo, design, and the symbolic 
+               elements related to the brand to create a distinctive identity 
+               in comparison to the other brands in the market and also providing 
+               impetus to the product differentiation. <br>
+               What I provide : Logo Design, Banner Design, Visual Identity Packages,
+               Business Cards & Business Systems.
+                
+              </p>
+              <a href="#services"  class="section-btn">Discover more</a>
+            </div>
+          </div> 
+          <div class="skills">
+            <div class="col-lg-12">
+              <h4>My Skills</h4>
+              <p>
+                Creation of sites and applications quickly and based on the latest technologies of the moment.
+              </p>
+              <div class="stock-ticker">
+                <ul>
+                  <li class="minus">
+                    <span class="company">HTML</span>
+                    <span class="price">2.23</span>
+                    <span class="change">-1.36 (-0.75%)</span>
+                  </li>
+                  <li class="plus">
+                    <span class="company">CSS</span>
+                    <span class="price">199.40</span>
+                    <span class="change">+7.36 (+3.58%)</span>
+                  </li>
+                  <li class="plus">
+                    <span class="company">JS</span>
+                    <span class="price">587.65</span>
+                    <span class="change">+4.89 (+0.75%)</span>
+                  </li>
+                  <li class="minus">
+                    <span class="company">VUE</span>
+                    <span class="price">2.23</span>
+                    <span class="change">-2.80 (-0.68%)</span>
+                  </li>
+                  <li class="minus">
+                    <span class="company">SQL</span>
+                    <span class="price">407.05</span>
+                    <span class="change">-1.36 (-0.75%)</span>
+                  </li>
+                  <li class="plus">
+                    <span class="company">Python</span>
+                    <span class="price">487.4</span>
+                    <span class="change">+5.31 (+1.10%)</span>
+                  </li>
+                  <li class="plus">
+                    <span class="company">REACT</span>
+                    <span class="price">2.23</span>
+                    <span class="change">+5.31 (+1.10%)</span>
+                  </li>
+                  <li class="minus">
+                    <span class="company">NODE</span>
+                    <span class="price">60.34</span>
+                    <span class="change">-0.37 (-0.61%)</span>
+                  </li>
+                </ul>
+                <ul aria-hidden="true">
+                  <li class="minus">
+                    <span class="company">HTML</span>
+                    <span class="price">2.23</span>
+                    <span class="change">-1.36 (-0.75%)</span>
+                  </li>
+                  <li class="plus">
+                    <span class="company">CSS</span>
+                    <span class="price">199.40</span>
+                    <span class="change">+7.36 (+3.58%)</span>
+                  </li>
+                  <li class="plus">
+                    <span class="company">JS</span>
+                    <span class="price">587.65</span>
+                    <span class="change">+4.89 (+0.75%)</span>
+                  </li>
+                  <li class="minus">
+                    <span class="company">VUE</span>
+                    <span class="price">2.23</span>
+                    <span class="change">-2.80 (-0.68%)</span>
+                  </li>
+                  <li class="minus">
+                    <span class="company">SQL</span>
+                    <span class="price">407.05</span>
+                    <span class="change">-1.36 (-0.75%)</span>
+                  </li>
+                  <li class="plus">
+                    <span class="company">Python</span>
+                    <span class="price">487.4</span>
+                    <span class="change">+5.31 (+1.10%)</span>
+                  </li>
+                  <li class="plus">
+                    <span class="company">REACT</span>
+                    <span class="price">2.23</span>
+                    <span class="change">+5.31 (+1.10%)</span>
+                  </li>
+                  <li class="minus">
+                    <span class="company">NODE</span>
+                    <span class="price">60.34</span>
+                    <span class="change">-0.37 (-0.61%)</span>
+                  </li>
+                </ul>
+              </div>
+
+            </div>
+            
+          </div>
+        </div>
+      </section>
+      <!----- Section: Services ----->
+      <section id="services" class="services">
+        <div class="container">
+          <div class="row">
+            <h1>My Services</h1>
+          </div>
+          <div class="row d-flex justify-content-center align-items-center">
+            <div class="col-lg-4 d-flex justify-content-center align-items-center">
+              <div class="card">
+                <div class="img-box">
+                  <img src="./asset/images/122.png" alt="">
+                </div>
+                <div class="details">
+                  <h4>Consultancy Ui/UX </h4>
+                  <p>
+                    UX consulting helps companies improve their product’s 
+                    overall usability and optimize expenses by implementing 
+                    the right UX processes, methods, and tools.
+                    <br>
+                    What I provide :
+                    <br>
+                    - Establish the right UX processes.
+                    <br>
+                    - Create exceptional user experiences. 
+                    <br>
+                    - Discover new business opportunities.
+                    <br>
+                    - Save resources.
+                  </p>
+                  <a href="#" class="section-btn">Discover More</a>
+                </div>
+
+              </div>
+            </div>
+            <div class="col-lg-4 d-flex justify-content-center align-items-center">
+              <div class="card">
+                <div class="img-box">
+                  <img src="./asset/images/dev.png" alt="">
+                </div>
+                <div class="details">
+                  <h4>Web Development</h4>
+                  <p>
+                    Web development services are used to design, 
+                    build, support, and evolve all types of web-based 
+                    software.
+                    <br>
+                    <br>
+                    <br>
+                    What I provide :
+                    <br>
+                    - Web application development.
+                    <br>
+                    - Testing. 
+                    <br>
+                    - Maintenance Systems.
+                    <br>
+                    <br>
+                    <br>
+                  </p>
+                  <a href="#" class="section-btn">Discover More</a>
+                </div>
+
+              </div>
+            </div>
+            <div class="col-lg-4 d-flex justify-content-center align-items-center">
+              <div class="card">
+                <div class="img-box">
+                  <img src="./asset/images/123.png" alt="">
+                </div>
+                <div class="details">
+                  <h4>Back-end Development</h4>
+                  <p>
+                    As a back-end developer, I am responsible for creating 
+                    the server-side components of a web application, including 
+                    the server infrastructure and database.
+                    <br>
+                    What I provide :
+                    <br>
+                    - Plan and structure your development.
+                    <br>
+                    - Select the appropriate technologies and frameworks. 
+                    <br>
+                    - Plan for regular maintenance and updates.
+                    <br>
+                  </p>
+                  <a href="#" class="section-btn">Discover More</a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+      <!----- Section: Portfolio ----->
+      <section id="portfolio" class="portfolio">
+        <div class="container">
+          <div class="row">
+            <h1>My Portfolio</h1>
+          </div>
+          <ul id="portfolio-filters" class="d-flex justify-content-center align-items-center">
+            <li data-filter="*" class="filter-active">ALL</li>
+            <li data-filter=".filter-html">HTML-CSS-JS</li>
+            <li data-filter=".filter-vue">Vue-JS</li>
+            <li data-filter=".filter-react">React-JS</li>
+          </ul>
+          <div class="row portfolio-container">
+            <div class="col-lg-4 col-md-6 portfolio-item filter-html">
+              <div class="portfolio-img">
+                <img class="img-fluid" src="./asset/images/border-radius.png" alt="">
+              </div>
+              <div class="portfolio-info">
+                <h4>My Toolbox</h4>
+                <p>Border Radius (blob)</p>
+                <a 
+                  href="./asset/images/border-radius.png" 
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox preview-link" 
+                  title="Search Movies"
+                >
+                  <ion-icon name="add-outline"></ion-icon>
+                </a>
+                <a href="#" class="details-link" title="More Details"
+                ><ion-icon name="link-outline"></ion-icon>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-html">
+              <div class="portfolio-img">
+                <img class="img-fluid" src="./asset/images/site-reservia.png" alt="">
+              </div>
+              <div class="portfolio-info">
+                <h4>Web site</h4>
+                <p>Reservation hotel</p>
+                <a 
+                  href="./asset/images/site-reservia.png" 
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox preview-link" 
+                  title="Reservation hotel"
+                >
+                  <ion-icon name="add-outline"></ion-icon>
+                </a>
+                <a href="https://100sue.github.io/RolandAPPERT_2_05092021/" class="details-link" title="More Details"
+                ><ion-icon name="link-outline"></ion-icon>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-html">
+              <div class="portfolio-img">
+                <img class="img-fluid" src="./asset/images/text-to-speech.png" alt="">
+              </div>
+              <div class="portfolio-info">
+                <h4>Converter</h4>
+                <p>Text to Speech</p>
+                <a 
+                  href="./asset/images/text-to-speech.png" 
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox preview-link" 
+                  title="Text to Speech"
+                >
+                  <ion-icon name="add-outline"></ion-icon>
+                </a>
+                <a href="https://github.com/100sue/text-to-speech" class="details-link" title="More Details"
+                ><ion-icon name="link-outline"></ion-icon>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-html">
+              <div class="portfolio-img">
+                <img class="img-fluid" src="./asset/images/box-shadow.png" alt="">
+              </div>
+              <div class="portfolio-info">
+                <h4>My Toolbox</h4>
+                <p>Box Shadow</p>
+                <a 
+                  href="./asset/images/box-shadow.png" 
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox preview-link" 
+                  title="Box Shadow"
+                >
+                  <ion-icon name="add-outline"></ion-icon>
+                </a>
+                <a href="#" class="details-link" title="More Details"
+                ><ion-icon name="link-outline"></ion-icon>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-html">
+              <div class="portfolio-img">
+                <img class="img-fluid" src="./asset/images/scoreur-lessons.png" alt="">
+              </div>
+              <div class="portfolio-info">
+                <h4>Streetball </h4>
+                <p>Streetball </p>
+                <a 
+                  href="./asset/images/scoreur-lessons.png" 
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox preview-link" 
+                  title="Streetball "
+                >
+                  <ion-icon name="add-outline"></ion-icon>
+                </a>
+                <a href="https://github.com/100sue/dev-ScoreurBrand" class="details-link" title="More Details"
+                ><ion-icon name="link-outline"></ion-icon>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-html">
+              <div class="portfolio-img">
+                <img class="img-fluid" src="./asset/images/tetris.png" alt="">
+              </div>
+              <div class="portfolio-info">
+                <h4>Games</h4>
+                <p>Tetris</p>
+                <a 
+                  href="./asset/images/tetris.png" 
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox preview-link" 
+                  title="Tetris"
+                >
+                  <ion-icon name="add-outline"></ion-icon>
+                </a>
+                <a href="https://github.com/100sue/tetris-scoreur" class="details-link" title="More Details"
+                ><ion-icon name="link-outline"></ion-icon>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-html">
+              <div class="portfolio-img">
+                <img class="img-fluid" src="./asset/images/generateur-image.jpg" alt="generaeur image">
+              </div>
+              <div class="portfolio-info">
+                <h4>Generateur d'images</h4>
+                <p>Le petit prince</p>
+                <a 
+                  href="./asset/images/generateur-image.jpg" 
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox preview-link" 
+                  title="Le petit prince"
+                >
+                  <ion-icon name="add-outline"></ion-icon>
+                </a>
+                <a href="https://github.com/100sue/Petit-prince" class="details-link" title="More Details"
+                ><ion-icon name="link-outline"></ion-icon>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-html">
+              <div class="portfolio-img">
+                <img class="img-fluid" src="./asset/images/bubble.png" alt="generaeur image">
+              </div>
+              <div class="portfolio-info">
+                <h4>Games</h4>
+                <p>My Bubble</p>
+                <a 
+                  href="./asset/images/bubble.png" 
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox preview-link" 
+                  title="My Bubble"
+                >
+                  <ion-icon name="add-outline"></ion-icon>
+                </a>
+                <a href="https://github.com/100sue/bubble-game" class="details-link" title="More Details"
+                ><ion-icon name="link-outline"></ion-icon>
+                </a>
+              </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-html">
+            <div class="portfolio-img">
+              <img class="img-fluid" src="./asset/images/gradiant.png" alt="generaeur image">
+            </div>
+            <div class="portfolio-info">
+              <h4>My Toolbox</h4>
+              <p>Generateur gradient</p>
+              <a 
+                href="./asset/images/gradiant.png" 
+                data-gallery="portfolioGallery"
+                class="portfolio-lightbox preview-link" 
+                title="Generateur gradient"
+              >
+                <ion-icon name="add-outline"></ion-icon>
+              </a>
+              <a href="https://github.com/100sue/dev-gradient" class="details-link" title="More Details"
+              ><ion-icon name="link-outline"></ion-icon>
+              </a>
+            </div>
+        </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-html">
+            <div class="portfolio-img">
+              <img class="img-fluid" src="./asset/images/code editor.png" alt="generaeur image">
+            </div>
+            <div class="portfolio-info">
+              <h4>My Toolbox</h4>
+              <p>My Code editor</p>
+              <a 
+                href="./asset/images/code editor.png" 
+                data-gallery="portfolioGallery"
+                class="portfolio-lightbox preview-link" 
+                title="My Code editor"
+              >
+                <ion-icon name="add-outline"></ion-icon>
+              </a>
+              <a href="https://github.com/100sue/Online-Code-editot" class="details-link" title="More Details"
+              ><ion-icon name="link-outline"></ion-icon>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-html">
+            <div class="portfolio-img">
+              <img class="img-fluid" src="./asset/images/generateur-couleur.png" alt="generaeur image">
+            </div>
+            <div class="portfolio-info">
+              <h4>My Toolbox</h4>
+              <p>Generateur couleurs</p>
+              <a 
+                href="./asset/images/generateur-couleur.png" 
+                data-gallery="portfolioGallery"
+                class="portfolio-lightbox preview-link" 
+                title="Generateur couleurs"
+              >
+                <ion-icon name="add-outline"></ion-icon>
+              </a>
+              <a href="https://github.com/100sue/dev-couleurs" class="details-link" title="More Details"
+              ><ion-icon name="link-outline"></ion-icon>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-html">
+            <div class="portfolio-img">
+              <img class="img-fluid" src="./asset/images/generateur-qrcode.png" alt="generaeur image">
+            </div>
+            <div class="portfolio-info">
+              <h4>My Toolbox</h4>
+              <p>Generateur Qr code</p>
+              <a 
+                href="./asset/images/generateur-couleur.png" 
+                data-gallery="portfolioGallery"
+                class="portfolio-lightbox preview-link" 
+                title="Generateur Qr code"
+              >
+                <ion-icon name="add-outline"></ion-icon>
+              </a>
+              <a href="https://github.com/100sue/dev-QR-code-generator" class="details-link" title="More Details"
+              ><ion-icon name="link-outline"></ion-icon>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-html">
+            <div class="portfolio-img">
+              <img class="img-fluid" src="./asset/images/site-resto.png" alt="generaeur image">
+            </div>
+            <div class="portfolio-info">
+              <h4>Web site</h4>
+              <p>Order meals</p>
+              <a 
+                href="./asset/images/site-resto.png" 
+                data-gallery="portfolioGallery"
+                class="portfolio-lightbox preview-link" 
+                title="Order meals"
+              >
+                <ion-icon name="add-outline"></ion-icon>
+              </a>
+              <a href="https://100sue.github.io/RolandAPPERT_3_09102021/" class="details-link" title="More Details"
+              ><ion-icon name="link-outline"></ion-icon>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-html">
+            <div class="portfolio-img">
+              <img class="img-fluid" src="./asset/images/port-neuro.png" alt="generaeur image">
+            </div>
+            <div class="portfolio-info">
+              <h4>Portfolio</h4>
+              <p>Neuromorphism</p>
+              <a 
+                href="./asset/images/port-neuro.png" 
+                data-gallery="portfolioGallery"
+                class="portfolio-lightbox preview-link" 
+                title="Neuromorphism"
+              >
+                <ion-icon name="add-outline"></ion-icon>
+              </a>
+              <a href="https://100sue.github.io/portfolio-neuro/" class="details-link" title="More Details"
+              ><ion-icon name="link-outline"></ion-icon>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-html">
+            <div class="portfolio-img">
+              <img class="img-fluid" src="./asset/images/port-utilitarism.png" alt="generaeur image">
+            </div>
+            <div class="portfolio-info">
+              <h4>Landing Page</h4>
+              <p>Utilitarism</p>
+              <a 
+                href="./asset/images/port-utilitarism.png" 
+                data-gallery="portfolioGallery"
+                class="portfolio-lightbox preview-link" 
+                title="Utilitarism"
+              >
+                <ion-icon name="add-outline"></ion-icon>
+              </a>
+              <a href="https://100sue.github.io/landingPage-2023/" class="details-link" title="More Details"
+              ><ion-icon name="link-outline"></ion-icon>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-html">
+            <div class="portfolio-img">
+              <img class="img-fluid" src="./asset/images/landingPage-coca.png" alt="generaeur image">
+            </div>
+            <div class="portfolio-info">
+              <h4>Landing Page</h4>
+              <p>Animation gsap</p>
+              <a 
+                href="./asset/images/landingPage-coca.png" 
+                data-gallery="portfolioGallery"
+                class="portfolio-lightbox preview-link" 
+                title="Animation gsap"
+              >
+                <ion-icon name="add-outline"></ion-icon>
+              </a>
+              <a href="https://100sue.github.io/dev-landingPage-Coca/" class="details-link" title="More Details"
+              ><ion-icon name="link-outline"></ion-icon>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-html">
+            <div class="portfolio-img">
+              <img class="img-fluid" src="./asset/images/landingPage-carte.png" alt="generaeur image">
+            </div>
+            <div class="portfolio-info">
+              <h4>Landing Page</h4>
+              <p>Carte de visite</p>
+              <a 
+                href="./asset/images/landingPage-carte.png" 
+                data-gallery="portfolioGallery"
+                class="portfolio-lightbox preview-link" 
+                title="Animation gsap"
+              >
+                <ion-icon name="add-outline"></ion-icon>
+              </a>
+              <a href="https://100sue.github.io/dev-MaLandingPage-gsap/" class="details-link" title="More Details"
+              ><ion-icon name="link-outline"></ion-icon>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-html">
+            <div class="portfolio-img">
+              <img class="img-fluid" src="./asset/images/landingPage-water.png" alt="generaeur image">
+            </div>
+            <div class="portfolio-info">
+              <h4>Landing Page</h4>
+              <p>Animation bulle</p>
+              <a 
+                href="./asset/images/landingPage-water.png" 
+                data-gallery="portfolioGallery"
+                class="portfolio-lightbox preview-link" 
+                title="Animation bulle"
+              >
+                <ion-icon name="add-outline"></ion-icon>
+              </a>
+              <a href="https://100sue.github.io/Water-shop/" class="details-link" title="More Details"
+              ><ion-icon name="link-outline"></ion-icon>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-html">
+            <div class="portfolio-img">
+              <img class="img-fluid" src="./asset/images/Product-card.png" alt="generaeur image">
+            </div>
+            <div class="portfolio-info">
+              <h4>Landing Page</h4>
+              <p>Product card</p>
+              <a 
+                href="./asset/images/Product-card.png" 
+                data-gallery="portfolioGallery"
+                class="portfolio-lightbox preview-link" 
+                title="Product card"
+              >
+                <ion-icon name="add-outline"></ion-icon>
+              </a>
+              <a href="https://100sue.github.io/Webshop-shoes/" class="details-link" title="More Details"
+              ><ion-icon name="link-outline"></ion-icon>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-html">
+            <div class="portfolio-img">
+              <img class="img-fluid" src="./asset/images/Product-card.png" alt="generaeur image">
+            </div>
+            <div class="portfolio-info">
+              <h4>Landing Page</h4>
+              <p>Product card</p>
+              <a 
+                href="./asset/images/Product-card.png" 
+                data-gallery="portfolioGallery"
+                class="portfolio-lightbox preview-link" 
+                title="Product card"
+              >
+                <ion-icon name="add-outline"></ion-icon>
+              </a>
+              <a href="https://100sue.github.io/Webshop-shoes/" class="details-link" title="More Details"
+              ><ion-icon name="link-outline"></ion-icon>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-html">
+            <div class="portfolio-img">
+              <img class="img-fluid" src="./asset/images/port-classique.png" alt="generaeur image">
+            </div>
+            <div class="portfolio-info">
+              <h4>Portfolio</h4>
+              <p>Style classique</p>
+              <a 
+                href="./asset/images/port-classique.png" 
+                data-gallery="portfolioGallery"
+                class="portfolio-lightbox preview-link" 
+                title="Style classique"
+              >
+                <ion-icon name="add-outline"></ion-icon>
+              </a>
+              <a href="https://100sue.github.io/portfolio-v4/" class="details-link" title="More Details"
+              ><ion-icon name="link-outline"></ion-icon>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-html">
+            <div class="portfolio-img">
+              <img class="img-fluid" src="./asset/images/port-glassmorphisme.png" alt="generaeur image">
+            </div>
+            <div class="portfolio-info">
+              <h4>Portfolio</h4>
+              <p>Glassmorphisme</p>
+              <a 
+                href="./asset/images/port-glassmorphisme.png" 
+                data-gallery="portfolioGallery"
+                class="portfolio-lightbox preview-link" 
+                title="Glassmorphisme"
+              >
+                <ion-icon name="add-outline"></ion-icon>
+              </a>
+              <a href="https://100sue.github.io/portfolio-glass/" class="details-link" title="More Details"
+              ><ion-icon name="link-outline"></ion-icon>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-html">
+            <div class="portfolio-img">
+              <img class="img-fluid" src="./asset/images/dev-card.png" alt="">
+            </div>
+            <div class="portfolio-info">
+              <h4>Card Product</h4>
+              <p>Glassmorphisme</p>
+              <a 
+                href="./asset/images/dev-card.png" 
+                data-gallery="portfolioGallery"
+                class="portfolio-lightbox preview-link" 
+                title="Card Product"
+              >
+                <ion-icon name="add-outline"></ion-icon>
+              </a>
+              <a href="https://100sue.github.io/dev-cardProduct/" class="details-link" title="More Details"
+              ><ion-icon name="link-outline"></ion-icon>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-html">
+            <div class="portfolio-img">
+              <img class="img-fluid" src="./asset/images/music-player.png" alt="">
+            </div>
+            <div class="portfolio-info">
+              <h4>App</h4>
+              <p>Music Player</p>
+              <a 
+                href="./asset/images/music-player.png" 
+                data-gallery="portfolioGallery"
+                class="portfolio-lightbox preview-link" 
+                title="Music Player"
+              >
+                <ion-icon name="add-outline"></ion-icon>
+              </a>
+              <a href="https://100sue.github.io/dev-musicPlayer/" class="details-link" title="More Details"
+              ><ion-icon name="link-outline"></ion-icon>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-vue">
+            <div class="portfolio-img">
+              <img class="img-fluid" src="./asset/images/landingPage-reservation.png" alt="">
+            </div>
+            <div class="portfolio-info">
+              <h4>Landing Page</h4>
+              <p>Reservation</p>
+              <a 
+                href="./asset/images/landingPage-reservation.png" 
+                data-gallery="portfolioGallery"
+                class="portfolio-lightbox preview-link" 
+                title="Landing Page"
+              >
+                <ion-icon name="add-outline"></ion-icon>
+              </a>
+              <a href="https://100sue.github.io/dev-landingPage-gsap/" class="details-link" title="More Details"
+              ><ion-icon name="link-outline"></ion-icon>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-vue">
+            <div class="portfolio-img">
+              <img class="img-fluid" src="./asset/images/dev-bien.png" alt="">
+            </div>
+            <div class="portfolio-info">
+              <h4>Hermes-Ai</h4>
+              <p>Voice Interface </p>
+              <a 
+                href="./asset/images/dev-bien.png" 
+                data-gallery="portfolioGallery"
+                class="portfolio-lightbox preview-link" 
+                title="Voice Interface"
+              >
+                <ion-icon name="add-outline"></ion-icon>
+              </a>
+              <a href="https://github.com/100sue/hermes" class="details-link" title="More Details"
+              ><ion-icon name="link-outline"></ion-icon>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-vue">
+            <div class="portfolio-img">
+              <img class="img-fluid" src="./asset/images/jexxi.png" alt="">
+            </div>
+            <div class="portfolio-info">
+              <h4>Jexxi-Ai</h4>
+              <p>My Chatgpt</p>
+              <a 
+                href="./asset/images/jexxi.png" 
+                data-gallery="portfolioGallery"
+                class="portfolio-lightbox preview-link" 
+                title="My Chatgpt"
+              >
+                <ion-icon name="add-outline"></ion-icon>
+              </a>
+              <a href="https://github.com/100sue/Jexxi" class="details-link" title="More Details"
+              ><ion-icon name="link-outline"></ion-icon>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-vue">
+            <div class="portfolio-img">
+              <img class="img-fluid" src="./asset/images/covidtracker.png" alt="">
+            </div>
+            <div class="portfolio-info">
+              <h4>Covid Tracker</h4>
+              <p>Covid Tracker</p>
+              <a 
+                href="./asset/images/covidtracker.png" 
+                data-gallery="portfolioGallery"
+                class="portfolio-lightbox preview-link" 
+                title="Covid Tracker"
+              >
+                <ion-icon name="add-outline"></ion-icon>
+              </a>
+              <a href="https://github.com/100sue/scoreur-covidtracker" class="details-link" title="More Details"
+              ><ion-icon name="link-outline"></ion-icon>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-vue">
+            <div class="portfolio-img">
+              <img class="img-fluid" src="./asset/images/searchmovies3.png" alt="">
+            </div>
+            <div class="portfolio-info">
+              <h4>Search Movies</h4>
+              <p>Search Movies</p>
+              <a 
+                href="./asset/images/searchmovies3.png" 
+                data-gallery="portfolioGallery"
+                class="portfolio-lightbox preview-link" 
+                title="Search Movies"
+              >
+                <ion-icon name="add-outline"></ion-icon>
+              </a>
+              <a href="https://github.com/100sue/search-movies" class="details-link" title="More Details"
+              ><ion-icon name="link-outline"></ion-icon>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-vue">
+            <div class="portfolio-img">
+              <img class="img-fluid" src="./asset/images/music-app.png" alt="">
+            </div>
+            <div class="portfolio-info">
+              <h4>App</h4>
+              <p>Music app</p>
+              <a 
+                href="./asset/images/music-app.png" 
+                data-gallery="portfolioGallery"
+                class="portfolio-lightbox preview-link" 
+                title="Music app"
+              >
+                <ion-icon name="add-outline"></ion-icon>
+              </a>
+              <a href="https://github.com/100sue/music-app" class="details-link" title="More Details"
+              ><ion-icon name="link-outline"></ion-icon>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-vue">
+            <div class="portfolio-img">
+              <img class="img-fluid" src="./asset/images/finder.png" alt="">
+            </div>
+            <div class="portfolio-info">
+              <h4>App</h4>
+              <p>Finder restaurant</p>
+              <a 
+                href="./asset/images/finder.png" 
+                data-gallery="portfolioGallery"
+                class="portfolio-lightbox preview-link" 
+                title="Finder restaurant"
+              >
+                <ion-icon name="add-outline"></ion-icon>
+              </a>
+              <a href="hhttps://github.com/100sue/finder-restaurant" class="details-link" title="More Details"
+              ><ion-icon name="link-outline"></ion-icon>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-vue">
+            <div class="portfolio-img">
+              <img class="img-fluid" src="./asset/images/baby-gen.png" alt="">
+            </div>
+            <div class="portfolio-info">
+              <h4>App</h4>
+              <p>Baby name generator</p>
+              <a 
+                href="./asset/images/baby-gen.png" 
+                data-gallery="portfolioGallery"
+                class="portfolio-lightbox preview-link" 
+                title="Baby name generator"
+              >
+                <ion-icon name="add-outline"></ion-icon>
+              </a>
+              <a href="https://github.com/100sue/baby-name" class="details-link" title="More Details"
+              ><ion-icon name="link-outline"></ion-icon>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-vue">
+            <div class="portfolio-img">
+              <img class="img-fluid" src="./asset/images/quote.png" alt="">
+            </div>
+            <div class="portfolio-info">
+              <h4>App like Kanye</h4>
+              <p>Quote generator</p>
+              <a 
+                href="./asset/images/quote.png" 
+                data-gallery="portfolioGallery"
+                class="portfolio-lightbox preview-link" 
+                title="Quote generator"
+              >
+                <ion-icon name="add-outline"></ion-icon>
+              </a>
+              <a href="https://github.com/100sue/Like-Kanye" class="details-link" title="More Details"
+              ><ion-icon name="link-outline"></ion-icon>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-vue">
+            <div class="portfolio-img">
+              <img class="img-fluid" src="./asset/images/app-marvel.png" alt="">
+            </div>
+            <div class="portfolio-info">
+              <h4>App</h4>
+              <p>Search Marvel</p>
+              <a 
+                href="./asset/images/app-marvel.png" 
+                data-gallery="portfolioGallery"
+                class="portfolio-lightbox preview-link" 
+                title="Search Marvel heroes"
+              >
+                <ion-icon name="add-outline"></ion-icon>
+              </a>
+              <a href="https://github.com/100sue/searchMarvel" class="details-link" title="More Details"
+              ><ion-icon name="link-outline"></ion-icon>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-vue">
+            <div class="portfolio-img">
+              <img class="img-fluid" src="./asset/images/feuille.png" alt="">
+            </div>
+            <div class="portfolio-info">
+              <h4>Games</h4>
+              <p>Feuille, papier ciseaux</p>
+              <a 
+                href="./asset/images/feuille.png" 
+                data-gallery="portfolioGallery"
+                class="portfolio-lightbox preview-link" 
+                title="Feuille, papier ciseaux"
+              >
+                <ion-icon name="add-outline"></ion-icon>
+              </a>
+              <a href="https://github.com/100sue/Scoreur-game" class="details-link" title="More Details"
+              ><ion-icon name="link-outline"></ion-icon>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-vue">
+            <div class="portfolio-img">
+              <img class="img-fluid" src="./asset/images/reseau.png" alt="">
+            </div>
+            <div class="portfolio-info">
+              <h4>App</h4>
+              <p>Reseau Social entreprise</p>
+              <a 
+                href="./asset/images/reseau.png" 
+                data-gallery="portfolioGallery"
+                class="portfolio-lightbox preview-link" 
+                title="Reseau Social entreprise"
+              >
+                <ion-icon name="add-outline"></ion-icon>
+              </a>
+              <a href="https://github.com/100sue/P7-APPERT" class="details-link" title="More Details"
+              ><ion-icon name="link-outline"></ion-icon>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-react">
+            <div class="portfolio-img">
+              <img class="img-fluid" src="./asset/images/portfolio2023.png" alt="">
+            </div>
+            <div class="portfolio-info">
+              <h4>Portfolio</h4>
+              <p>Portfolio 2023</p>
+              <a 
+                href="./asset/images/portfolio2023.png" 
+                data-gallery="portfolioGallery"
+                class="portfolio-lightbox preview-link" 
+                title="Portfolio 2023"
+              >
+                <ion-icon name="add-outline"></ion-icon>
+              </a>
+              <a href="#" class="details-link" title="More Details"
+              ><ion-icon name="link-outline"></ion-icon>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!----- Section: Contact ---->
+      <section id="contact" class="contact">
+        <div class="container">
+          <div class="row">
+            <h1>Contact Me</h1>
+            <model-viewer 
+         class="robo"
+         src="./models/robot_playground/scene.gltf"
+         camera-controls
+         disable-pan
+         disable-zoom
+         interaction-prompt="none"
+         field-of-view="10deg"
+         autoplay="experiment_object_159"
+        ></model-viewer>
+          </div>
+          
+          <div class="row mt-5">
+            <div class="col-lg-4">
+              <div class="info">
+                <div class="address">
+                  <ion-icon name="location-outline"></ion-icon>
+                  <h4>Location:</h4>
+                  <p>Paris, France</p>
+                </div>
+                <div class="email">
+                  <ion-icon name="mail-outline"></ion-icon>
+                  <h4>Email:</h4>
+                  <p>scoreur@gmail.com</p>
+                </div>
+                <div class="phone">
+                  <ion-icon name="call-outline"></ion-icon>
+                  <h4>Call:</h4>
+                  <p>06 23 55 04 52</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-8 mt-5 mt-lg-0">
+              <form id="contactForm" action="https://api.web3forms.com/submit" method="post">
+                <input type="hidden" name="access_key" value="8eebc0df-fa72-4529-ab9b-3da918bb297b">
+                <div class="row">
+                  <div class="col-md-6 form-group">
+                    <input 
+                    type="text"
+                    class="form-control"
+                    name="name"
+                    placeholder="Your name"
+                    id="name" 
+                    required
+                    />
+                  </div>
+                  <div class="col-md-6 form-group mt-3 mt-md-0">
+                    <input 
+                    type="email"
+                    class="form-control"
+                    name="email"
+                    id="email" 
+                    placeholder="Your email"
+                    required
+                    />
+                  </div>
+                </div>
+                <div class="form-group mt-3">
+                  <input 
+                    type="text"
+                    class="form-control"
+                    name="subject"
+                    id="subject"
+                    placeholder="Subject"
+                    required
+                    />
+                </div>
+                <div class="form-group mt-3">
+                  <textarea 
+                    name="message"
+                    id="message"
+                    class="form-control"
+                    rows="5"
+                    placeholder="Message"
+                    required
+                    ></textarea>
+                </div>
+                <div class="text-center">
+                  <button type="submit">Send Message</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        
+      </section>
+    </main>
+
+    <script 
+    type="module" 
+    src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js">
+    </script>
+    <script 
+    nomodule
+    src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js">
+    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
+    <script src="./js/gligthbox.js"></script>
+    <script src="./js/isotope.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
